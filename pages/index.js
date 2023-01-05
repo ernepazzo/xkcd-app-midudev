@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>XKCD</title>
-        <meta name="description" content="Descript XKCD" />
+        <title>XKCD-App</title>
+        <meta name="description" content="Descript XKCD-App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
