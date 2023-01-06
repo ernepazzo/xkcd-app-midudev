@@ -1,5 +1,6 @@
 import { Card, Container, Row, Text } from "@nextui-org/react";
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
         <meta name="description" content="Descript XKCD-App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
 
       <main>
         <Container>
@@ -27,4 +30,12 @@ export default function Home() {
       </main>
     </div>
   );
+}
+
+export async function getStaticProps(context) {
+  return {
+    props: {
+      
+    }
+  }
 }

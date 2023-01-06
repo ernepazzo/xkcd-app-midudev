@@ -1,5 +1,5 @@
-// import "../styles/globals.css";
 import { NextUIProvider } from "@nextui-org/react";
+import "../public/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
